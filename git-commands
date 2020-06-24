@@ -1,0 +1,17 @@
+## Creating a new repository in the terminal
+
+
+
+git init
+git add somefile.txt
+git commit -m "initial commit"
+git remote add origin {repositoryname} (can be like: https://github.com/osmnorhn/cheatsheets.git)
+git push -u origin master
+
+## push existing repository with terminal
+
+git remote add origin https://github.com/osmnorhn/cheatsheets.git
+git push -u origin master
+
+## Clone an existing repository
+git clone https://github.com/osmnorhn/cheatsheets.git
